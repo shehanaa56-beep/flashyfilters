@@ -701,7 +701,7 @@
 /* Photography Page Styles */
 .photography-hero {
   height: 100vh;
-  background: url('../public/images/2.webp') center/cover;
+  background: url('../public/images/d11.webp') center/cover;
   position: relative;
   display: flex;
   align-items: center;
@@ -723,8 +723,8 @@
 .hero-title {
   font-family: 'Playfair Display', serif;
   font-size: 4rem;
-  font-weight: 700;
-  color: #fff;
+  font-weight: 500;
+  color: #dfcece;
   text-align: center;
   margin: 0;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -1430,4 +1430,21 @@
     grid-template-columns: repeat(2, 1fr) !important;
     gap: 1rem;
   }
+}
+.navbar-link {
+   color: #48411c !important;
+  background-color: #dfcece !important;
+}
+
+.navbar-link:hover,
+.navbar-link.active {
+  color: var(--gold) !important;
+}
+.drawer-link {
+  color: #48411c !important;
+  background-color: #dfcece !important;
+}
+
+.drawer-link:hover {
+  color: var(--gold) !important;
 }
