@@ -701,7 +701,7 @@
 /* Photography Page Styles */
 .photography-hero {
   height: 100vh;
-  background: url('../public/images/2.jpeg') center/cover;
+  background: url('../public/images/2.webp') center/cover;
   position: relative;
   display: flex;
   align-items: center;
