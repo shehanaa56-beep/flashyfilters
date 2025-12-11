@@ -8,74 +8,74 @@ const blogData = [
     id: 1,
     subtitle: "Our love has no bounds",
     description: "A beautiful journey of two souls finding each other amidst the chaos of life, capturing moments that define forever.",
-    image: "/images/a11.JPG"
+    image: "/images/a11.webp"
   },
   {
     id: 2,
     subtitle: "When I met you, I knew you were the one",
     description: "From the first glance to eternal vows, their story reminds us that true love is written in the stars.",
-    image: "/images/b1.JPG"
+    image: "/images/b1.webp"
   },
   {
     id: 3,
     subtitle: "Just like that, our stars aligned",
     description: "A tale of destiny and choice, where two hearts beat as one under the vast Indian sky.",
-    image: "/images/c1.JPG"
+    image: "/images/c1.webp"
   },
   {
     id: 4,
     subtitle: "A tale with a twist",
     description: "Unexpected turns led to the most beautiful love story, proving that the best journeys are unplanned.",
-    image: "/images/d1.JPG"
+    image: "/images/d1.webp"
   }
   ,
   {
     id: 4,
     subtitle: "A tale with a twist",
     description: "Unexpected turns led to the most beautiful love story, proving that the best journeys are unplanned.",
-    image: "/images/a111.JPG"
+    image: "/images/a111.webp"
   },
   {
     id: 4,
     subtitle: "A tale with a twist",
     description: "Unexpected turns led to the most beautiful love story, proving that the best journeys are unplanned.",
-    image: "/images/b11.JPG"
+    image: "/images/b11.webp"
   },
   {
     id: 4,
     subtitle: "A tale with a twist",
     description: "Unexpected turns led to the most beautiful love story, proving that the best journeys are unplanned.",
-    image: "/images/c111.JPG"
+    image: "/images/c111.webp"
   },
   {
     id: 4,
     subtitle: "A tale with a twist",
     description: "Unexpected turns led to the most beautiful love story, proving that the best journeys are unplanned.",
-    image: "/images/d11.JPG"
+    image: "/images/d11.webp"
   },
   {
     id: 4,
     subtitle: "A tale with a twist",
     description: "Unexpected turns led to the most beautiful love story, proving that the best journeys are unplanned.",
-    image: "/images/a1111.JPG"
+    image: "/images/a1111.webp"
   },
   {
     id: 4,
     subtitle: "A tale with a twist",
     description: "Unexpected turns led to the most beautiful love story, proving that the best journeys are unplanned.",
-    image: "/images/b111.JPG"
+    image: "/images/b111.webp"
   },
   {
     id: 4,
     subtitle: "A tale with a twist",
     description: "Unexpected turns led to the most beautiful love story, proving that the best journeys are unplanned.",
-    image: "/images/d111.JPG"
+    image: "/images/d111.webp"
   },
   {
     id: 4,
     subtitle: "A tale with a twist",
     description: "Unexpected turns led to the most beautiful love story, proving that the best journeys are unplanned.",
-    image: "/images/d11.JPG"
+    image: "/images/d11.webp"
   }
 ];
 

@@ -2,7 +2,7 @@ const blogPosts = [
   {
     id: 1,
     title: "A Dreamy Beachside Wedding in Bali",
-    image: "/images/13.jpeg",
+    image: "/images/13.webp",
     author: "Elena Rodriguez",
     date: "March 15, 2024",
     content: `
@@ -16,7 +16,7 @@ const blogPosts = [
   {
     id: 2,
     title: "Rustic Vineyard Elopement in Napa Valley",
-    image: "/images/14.jpeg",
+    image: "/images/14.webp",
     author: "Michael Chen",
     date: "February 28, 2024",
     content: `
@@ -30,7 +30,7 @@ const blogPosts = [
   {
     id: 3,
     title: "Garden Party Wedding in Charleston",
-    image: "/images/15.jpeg",
+    image: "/images/15.webp",
     author: "Sarah Thompson",
     date: "April 5, 2024",
     content: `
@@ -44,7 +44,7 @@ const blogPosts = [
   {
     id: 4,
     title: "Mountain Lodge Winter Wedding",
-    image: "/images/a.JPG",
+    image: "/images/a.webp",
     author: "David Park",
     date: "January 20, 2024",
     content: `
@@ -58,7 +58,7 @@ const blogPosts = [
   {
     id: 5,
     title: "Urban Rooftop Romance in New York",
-    image: "/images/b11.JPG",
+    image: "/images/b11.webp",
     author: "Jessica Liu",
     date: "May 12, 2024",
     content: `
@@ -72,7 +72,7 @@ const blogPosts = [
   {
     id: 6,
     title: "Tropical Paradise Wedding in Hawaii",
-    image: "/images/c11.JPG",
+    image: "/images/c11.webp",
     author: "Ryan Johnson",
     date: "June 8, 2024",
     content: `
