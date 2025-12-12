@@ -20,6 +20,7 @@ const NavbarGlass = () => {
           <a href="/photography" className="navbar-link">Stories</a>
           <a href="#about" className="navbar-link">About</a>
           <a href="#contact" className="navbar-link">Contact</a>
+          <a href="/login" className="navbar-link">Login</a>
         </div>
 
 
@@ -38,9 +39,10 @@ const NavbarGlass = () => {
         >
           <Link to="/" className="drawer-link" onClick={toggleMenu}>Home</Link>
           <Link to="/photopage" className="drawer-link" onClick={toggleMenu}>Photography</Link>
-          <a href="#stories" className="drawer-link" onClick={toggleMenu}>Stories</a>
+          <a href="/photography" className="drawer-link" onClick={toggleMenu}>Stories</a>
           <a href="#about" className="drawer-link" onClick={toggleMenu}>About</a>
           <a href="#contact" className="drawer-link" onClick={toggleMenu}>Contact</a>
+          <a href="/login" className="drawer-link" onClick={toggleMenu}>Login</a>
         </motion.div>
       )}
     </nav>

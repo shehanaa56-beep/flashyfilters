@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import NavbarGlass from './components/NavbarGlass';
 import HeroCarousel from './components/HeroCarousel';
 import BlogGrid from './components/BlogGrid';
@@ -8,40 +8,54 @@ import PhotoPage from './components/photopage';
 import FooterGlass from './components/FooterGlass';
 import './App.css';
 import Photography from './components/Photography';
+import AdminDashboard from "./admin/AdminDashboard";
+import LoginPage from "./pages/LoginPage";
+import CardDetails from "./pages/CardDetails";
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <NavbarGlass />
+    <div className="App">
+      <NavbarGlass />
 
-        <Routes>
+      <Routes>
 
-          {/* Single Post */}
-          <Route path="/post/:id" element={<PostPage />} />
+        {/* Single Post */}
+        <Route path="/post/:id" element={<PostPage />} />
 
-          {/* Photography Page (Hero Carousel) */}
-          <Route path="/photography" element={<HeroCarousel />} />
+        {/* Photography Page */}
+        <Route path="/photography" element={<HeroCarousel />} />
 
-          {/* PhotoPage.js */}
-          <Route path="/photopage" element={<PhotoPage />} />
+        {/* PhotoPage */}
+        <Route path="/photopage" element={<PhotoPage />} />
+        <Route path="/photos/:id" element={<CardDetails />} />
+        {/* Home Page */}
+        <Route
+          path="/"
+          element={
+            <>
+              <Photography />
+              <BlogGrid />
+            </>
+          }
+        />
 
-          {/* Home Page */}
-          <Route
-            path="/"
-            element={
-              <>
-                <Photography />
-                <BlogGrid />
-              </>
-            }
-          />
+        {/* Login Page */}
+        <Route path="/login" element={<LoginPage />} />
 
-        </Routes>
+        {/* Admin Page (Protected) */}
+        <Route
+          path="/admin"
+          element={
+            localStorage.getItem("isAdminLoggedIn") === "true"
+              ? <AdminDashboard />
+              : <LoginPage />
+          }
+        />
 
-        <FooterGlass />
-      </div>
-    </Router>
+      </Routes>
+
+      <FooterGlass />
+    </div>
   );
 }
 

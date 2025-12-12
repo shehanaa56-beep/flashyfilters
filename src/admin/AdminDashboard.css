@@ -1,0 +1,122 @@
+.admin-dashboard {
+  max-width: 520px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+  font-family: 'Poppins', sans-serif;
+}
+
+.admin-dashboard h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.admin-dashboard input,
+.admin-dashboard textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  font-size: 15px;
+  border: 1px solid #ddd;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.admin-dashboard input:focus,
+.admin-dashboard textarea:focus {
+  border-color: #ff5e8d;
+  box-shadow: 0 0 6px rgba(255, 94, 141, 0.4);
+}
+
+.admin-dashboard textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.admin-dashboard label {
+  font-weight: 500;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.admin-dashboard button {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(135deg, #ff5e8d, #ff2e63);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.admin-dashboard button:hover {
+  background: linear-gradient(135deg, #ff2e63, #ff5e8d);
+}
+
+@media (max-width: 480px) {
+  .admin-dashboard {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .admin-dashboard h2 {
+    font-size: 22px;
+  }
+}
+.admin-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: #ffffff20;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  backdrop-filter: blur(8px);
+}
+
+.admin-thumb {
+  width: 100px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.btn-group {
+  margin-left: auto;
+  display: flex;
+  gap: 10px;
+}
+
+.edit-btn {
+  background: #3498db;
+  padding: 6px 12px;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background: #e74c3c;
+  padding: 6px 12px;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.edit-btn:hover {
+  background: #2980b9;
+}
+
+.delete-btn:hover {
+  background: #c0392b;
+}

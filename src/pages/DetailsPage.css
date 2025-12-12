@@ -1,0 +1,44 @@
+.details-page {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.details-image {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.details-title {
+  font-size: 28px;
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.details-destination {
+  font-size: 18px;
+  opacity: 0.7;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.details-description {
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+}
+.scroll-gallery {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  padding: 10px;
+  scroll-snap-type: x mandatory;
+}
+
+.scroll-image {
+  width: 90%;
+  border-radius: 12px;
+  scroll-snap-align: start;
+  flex-shrink: 0;
+}
